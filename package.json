@@ -1,0 +1,24 @@
+{
+  "name": "pi-glm-image-summary",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Pi extension that intercepts image reads when using glm-4.7 and sends them to glm-4.6v for detailed analysis",
+  "keywords": [
+    "pi-package",
+    "glm",
+    "image",
+    "vision",
+    "ai"
+  ],
+  "scripts": {
+    "clean": "echo 'nothing to clean'",
+    "build": "echo 'nothing to build'",
+    "check": "echo 'nothing to check'"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  }
+}
